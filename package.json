@@ -1,0 +1,20 @@
+{
+  "name": "playwright-pom-demo-advanced",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:smoke": "playwright test --project=smoke",
+    "test:reg": "playwright test --project=regression",
+    "codegen": "playwright codegen",
+    "show-report": "playwright show-report",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "typescript": "^5.6.2",
+    "ts-node": "^10.9.2",
+    "prettier": "^3.3.3"
+  }
+}
